@@ -47,6 +47,9 @@ table {
 	border-spacing: 0;
 }
 
+
+
+
 * {
     box-sizing: border-box;
 }
@@ -70,6 +73,7 @@ p {
     width: 800px;
     margin: 0 auto;
 }
+
 .top-nav{
     display: flex;
     justify-content: space-between;
@@ -78,6 +82,7 @@ p {
     width: 92%;
 
 }
+
 .top-nav a{
     text-decoration: none;
     color:black;
@@ -92,105 +97,43 @@ p {
     margin-bottom:1.5em;
     
 }
-.top-content {
+
+section p{
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+.container-about-page{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
-    margin-bottom: 20px;
-    border-bottom: 1px dashed black;
-}
-
-.top-content .text-container {
-    width: 48%;
-    padding: 0 1%;
-    padding-bottom: 20px;  
-}
-
-.middle-content {
-    margin-bottom: 20px;
-    border-bottom: 1px dashed black;
-}
-
-.middle-content h2 {
-    padding: 0 2%;
-    margin-bottom: 0;
-}
-
-.middle-content .boxes {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-}
-
-.middle-content .boxes .box {
-    width: 12.5%;
-    height: 100px;
-    background: black;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-#box1{
- background: teal;   
-}
-#box2{
-    background: gold;   
-}
-#box3{
-    background:cadetblue ;   
-}
-#box4{
-    background: coral;   
-}
-#box5{
-    background: crimson;   
-}
-#box6{
-    background: forestgreen;   
-}
-#box7{
-    background: darkorchid;   
-}
-#box8{
-    background: hotpink;   
-}
-#box9{
-    background:indigo;   
-}
-#box10{
-    background: dodgerblue;   
-}
-.bottom-content {
-    display: flex;
-    margin: 0 2% 20px;
-    justify-content: space-around;
-}
-
-.bottom-content .text-container {
-    padding-right: 4%;
-}
-
-.bottom-content .text-container:last-child {
-    padding-right: 0;
-}
-
-footer {
-    width: 100%;
-    background: black;
-}
-
-footer nav {
-    width: 60%;
-    display: flex;
     justify-content: space-between;
-    align-items: center;
-    padding: 20px 2%;
-    font-size: 14px;
+    border-top:1px dotted black;
 }
 
-footer nav a {
-    color: white;
-    text-decoration: none;
+.container-about-page section{
+    align-items: center;
+    width: 50%;
+    margin:auto;
+    border-bottom:1px dotted black;
+    padding-top:2%;
+    padding-bottom:2%;
 }
+
+.learn{
+    color:black;
+    text-decoration: none;
+    border:2px solid black;
+    border-radius:15%;
+    padding:2px;
+    
+
+}
+
+.work{
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+
+
+
